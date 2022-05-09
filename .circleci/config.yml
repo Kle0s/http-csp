@@ -6,7 +6,10 @@ jobs:
       - image: cimg/node:16.14.0
     steps:
       - checkout
-      - run: npm install
+      - run: 
+          name: "Install Requirements"
+          shell: /bin/bash
+          command: npm install
       - run:
           name: "Build Library"
           shell: /bin/bash
