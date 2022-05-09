@@ -25,9 +25,13 @@ jobs:
       - attach_workspace:
           at: .
       - run:
+          name: "Install Codecov"
+          shell: /bin/basj
+          command: npm install codecov
+      - run:
           name: "Run Tests and Collect Coverage"
           shell: /bin/bash
-          command: npm test
+          command: npm test && codecov
       
 workflows:
   version: 2
