@@ -26,7 +26,7 @@ jobs:
           at: .
       - run:
           name: "Install Codecov"
-          shell: /bin/basj
+          shell: /bin/bash
           command: npm install codecov
       - run:
           name: "Run Tests and Collect Coverage"
