@@ -44,4 +44,4 @@ const cspString = build(policy);
 Issue opening is welcomed if any are encountered. I do plan to continue maintaing this package in the forseeable future.
 
 ## License
-[GNU AGPL v3.0](https://choosealicense.com/licenses/agpl-3.0/)
+Available [here](LICENSE)
