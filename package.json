@@ -2,9 +2,14 @@
   "name": "http-csp",
   "version": "1.0.0",
   "description": "Parser/builder for HTTP Content-Security-Policy header",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "jest --config jestconfig.json --collectCoverage",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -23,6 +28,12 @@
   },
   "homepage": "https://github.com/Kle0s/http-csp#readme",
   "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
     "typescript": "^4.6.4"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
