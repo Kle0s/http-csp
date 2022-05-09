@@ -1,0 +1,28 @@
+{
+  "name": "http-csp",
+  "version": "1.0.0",
+  "description": "Parser/builder for HTTP Content-Security-Policy header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kle0s/http-csp.git"
+  },
+  "keywords": [
+    "http",
+    "csp",
+    "Content-Security-Policy",
+    "http-headers"
+  ],
+  "author": "Kle0s",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Kle0s/http-csp/issues"
+  },
+  "homepage": "https://github.com/Kle0s/http-csp#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
