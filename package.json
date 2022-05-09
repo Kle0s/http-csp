@@ -22,7 +22,7 @@
     "http-headers"
   ],
   "author": "Kle0s",
-  "license": "AGPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Kle0s/http-csp/issues"
   },
