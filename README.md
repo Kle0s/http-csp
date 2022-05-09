@@ -1,4 +1,4 @@
-[![Kle0s](https://circleci.com/gh/Kle0s/http-csp.svg?style=svg)](https://github.com/Kle0s/http-csp)
+[![Kle0s](https://circleci.com/gh/Kle0s/http-csp.svg?style=shield)](https://github.com/Kle0s/http-csp) [![codecov](https://codecov.io/gh/Kle0s/http-csp/branch/main/graph/badge.svg?token=16FG0S6B32)](https://codecov.io/gh/Kle0s/http-csp)
 
 # HTTP Content-Security-Policy
 http-csp is a javascript/typescript library for dealing with the web layer [Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP).
