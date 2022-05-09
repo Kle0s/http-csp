@@ -9,18 +9,15 @@ Or a HTML `<meta>` element, like that:
 <meta http-equiv="Content-Security-Policy"
       content="default-src 'self'; script-src 'unsafe-eval' more-scripts.com; object-src; style-src source-for-styles.co.nz;">
 ```
-<br>
 
 ## Installation
 Use the npm package manager in order to install the package:
 ```bash
 npm install http-csp
 ```
-<br>
 
 ### Typescript Support
 The package comes with full on typescript support automatically (and is in fact written in typescript).
-<br>
 
 ## Usage
 The package currently exports two functionalities:
