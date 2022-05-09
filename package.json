@@ -1,6 +1,6 @@
 {
   "name": "http-csp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parser/builder for HTTP Content-Security-Policy header",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
